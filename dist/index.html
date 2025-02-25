@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Ferrari.com</title>
+</head>
+<body>
+
+    <header class="banner">
+      Performed By KHALID RAGAB <span class="banner_span"> ( TAKUMI )</span>
+    </header>
+
+    <form class="form">
+        <fieldset class="form_field">
+            <h1 class="form_title">Ferrari's <span class="form_titlespan">F1</span> Team Appointment Form</h1>
+            
+          <div class="form_items">
+            <input class= "form_item1" type="text" placeholder="First Name">
+            <input class= "form_item2" type="text" placeholder="Last Name">
+          </div>
+          
+          <div class="form_items">
+            <input class= "form_item1" type="text" id="number" placeholder="Phone Number">
+            <input class= "form_item2" type="email" placeholder="Enter Email">
+          </div>
+          
+          <div class="form_items">
+            <input class= "form_item1" type="date">
+            <input class= "form_item2" type="time">
+          </div>
+
+            <select class="form_request" name="dropdown" id="0">
+                <option value="purpose" selected>Purpose Of Appointement</option>
+                <option value="interview">Interview</option>
+                <option value="request">Requesting Speed Test</option>
+                <option value="retire">Retiring</option>
+            </select>
+
+          <textarea class="form_request" name="message" placeholder="write your message" id="1"></textarea>
+          <div class="form_buttons">
+            <button class="form_cancel">Cancel</button>
+            <button class="form_book" type="submit">Book Appointement</button>
+          </div>
+        </fieldset>
+    </form>
+</body>
+</html>

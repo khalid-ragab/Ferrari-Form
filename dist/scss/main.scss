@@ -1,0 +1,108 @@
+$PRIMARY_COLOR:white;
+$SECONDARY_COLOR: red;
+$ITEMS_COLOR: darkred;
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('/FERRARI_Form/f1.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.banner{
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    
+    &_span{
+        color:$SECONDARY_COLOR;
+    }
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+
+&_title{
+    font-size: 26px;
+    color: $PRIMARY_COLOR;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+&_titlespan{
+    color: $SECONDARY_COLOR;
+}
+
+&_field{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 40%;
+    border-radius: 5px;
+}
+
+&_items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+&_item1{
+    width: 50%;
+    height: 30px;
+    margin-right: 10px ;
+    margin-top: 20px;
+    color: $PRIMARY_COLOR;
+    background-color: $ITEMS_COLOR;
+    border: 0;
+    border-radius: 4px;
+}
+
+&_item2{
+    width: 50%;
+    height: 30px;
+    margin-left: 10px ;
+    margin-top: 20px;
+    color: $PRIMARY_COLOR;
+    background-color: $ITEMS_COLOR;
+    border: 0;
+    border-radius: 4px;
+}
+
+&_request{
+    height: 30px;
+    margin-top: 20px;
+    color: $PRIMARY_COLOR;
+    background-color: $ITEMS_COLOR;
+    border: 0;
+    border-radius: 4px;
+}
+
+&_buttons{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+&_cancel{
+    height: 35px;
+    width: 60px;
+    margin-right: 10px;
+    border-radius: 2px;
+    border: 0;
+    cursor: pointer;
+}
+
+&_book{
+    margin-right: 10px;
+    color: $PRIMARY_COLOR;
+    background-color: $SECONDARY_COLOR;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+}

@@ -1,0 +1,95 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("/FERRARI_Form/f1.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.banner {
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+}
+.banner_span {
+  color: red;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+.form_title {
+  font-size: 26px;
+  color: white;
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.form_titlespan {
+  color: red;
+}
+.form_field {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 40%;
+  border-radius: 5px;
+}
+.form_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.form_item1 {
+  width: 50%;
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 20px;
+  color: white;
+  background-color: darkred;
+  border: 0;
+  border-radius: 4px;
+}
+.form_item2 {
+  width: 50%;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 20px;
+  color: white;
+  background-color: darkred;
+  border: 0;
+  border-radius: 4px;
+}
+.form_request {
+  height: 30px;
+  margin-top: 20px;
+  color: white;
+  background-color: darkred;
+  border: 0;
+  border-radius: 4px;
+}
+.form_buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+.form_cancel {
+  height: 35px;
+  width: 60px;
+  margin-right: 10px;
+  border-radius: 2px;
+  border: 0;
+  cursor: pointer;
+}
+.form_book {
+  margin-right: 10px;
+  color: white;
+  background-color: red;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
